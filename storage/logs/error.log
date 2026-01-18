@@ -1,0 +1,156 @@
+[2026-01-05 20:06:44] Exception: Typed property App\Models\User::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\User.php on line 58
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\UserController.php(178): App\Models\User->toArray()
+#1 [internal function]: App\Controllers\UserController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-05 20:16:00] Exception: Typed property App\Models\User::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\User.php on line 58
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\UserController.php(178): App\Models\User->toArray()
+#1 [internal function]: App\Controllers\UserController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-05 20:25:44] Exception: Typed property App\Models\User::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\User.php on line 58
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\UserController.php(178): App\Models\User->toArray()
+#1 [internal function]: App\Controllers\UserController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-05 20:29:54] Exception: Typed property App\Models\Item::$sellQuantity must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Item.php on line 75
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\ItemController.php(88): App\Models\Item->toArray()
+#1 [internal function]: App\Controllers\ItemController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 10:57:49] Exception: Typed property App\Models\Item::$sellQuantity must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Item.php on line 75
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\ItemController.php(88): App\Models\Item->toArray()
+#1 [internal function]: App\Controllers\ItemController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 11:03:19] Exception: Typed property App\Models\Item::$sellQuantity must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Item.php on line 75
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\ItemController.php(88): App\Models\Item->toArray()
+#1 [internal function]: App\Controllers\ItemController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 11:17:13] Exception: Typed property App\Models\Item::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Item.php on line 83
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\ItemController.php(88): App\Models\Item->toArray()
+#1 [internal function]: App\Controllers\ItemController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 11:31:55] Exception: Typed property App\Models\Customer::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Customer.php on line 41
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\CustomerController.php(88): App\Models\Customer->toArray()
+#1 [internal function]: App\Controllers\CustomerController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 12:40:53] Exception: Typed property App\Models\Promotion::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Promotion.php on line 56
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\PromotionController.php(88): App\Models\Promotion->toArray()
+#1 [internal function]: App\Controllers\PromotionController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 12:41:03] Exception: Typed property App\Models\Promotion::$createdAt must not be accessed before initialization in C:\xampp\htdocs\pos-system\src\Models\Promotion.php on line 56
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\PromotionController.php(88): App\Models\Promotion->toArray()
+#1 [internal function]: App\Controllers\PromotionController->create()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-06 15:42:49] Exception: syntax error, unexpected single-quoted string "" in C:\xampp\htdocs\pos-system\views\billing.php on line 12
+Stack Trace:
+#0 [internal function]: App\Controllers\BillingController->showBilling()
+#1 C:\xampp\htdocs\pos-system\src\Config\Router.php(203): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#3 {main}[2026-01-06 20:48:42] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:48:42] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:48:42] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:48:55] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:48:55] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:49:15] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:49:15] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:49:15] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:49:15] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 20:49:15] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 18
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:02:29] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 19
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:02:29] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 19
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:02:29] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 19
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:02:29] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 19
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:02:29] Exception: Cannot call constructor in C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php on line 19
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Config\Router.php(197): App\Controllers\DeviceController->__construct()
+#1 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#2 {main}[2026-01-06 21:05:45] Exception: App\Models\Device::getDefaultDevice(): Return value must be of type ?array, bool returned in C:\xampp\htdocs\pos-system\src\Models\Device.php on line 102
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\src\Controllers\DeviceController.php(71): App\Models\Device->getDefaultDevice('printer')
+#1 [internal function]: App\Controllers\DeviceController->getDefaultDevice()
+#2 C:\xampp\htdocs\pos-system\src\Config\Router.php(198): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#4 {main}[2026-01-09 22:56:52] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 22:57:34] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 22:57:35] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 23:01:20] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 23:01:22] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 23:01:27] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 23:01:28] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}[2026-01-09 23:01:48] Exception: Class "App\Config\ReportsController" not found in C:\xampp\htdocs\pos-system\src\Config\Router.php on line 206
+Stack Trace:
+#0 C:\xampp\htdocs\pos-system\index.php(29): App\Config\Router->dispatch()
+#1 {main}
